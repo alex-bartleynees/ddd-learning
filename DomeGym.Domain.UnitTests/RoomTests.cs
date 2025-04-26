@@ -5,6 +5,8 @@ using FluentAssertions;
 
 namespace DomeGym.Domain.UnitTests;
 
+using RoomAggregate;
+
 public class RoomTests
 {
     [Fact]

@@ -5,6 +5,8 @@ using FluentAssertions;
 
 namespace DomeGym.Domain.UnitTests;
 
+using TrainerAggregate;
+
 public class TrainerTests
 {
     [Theory]

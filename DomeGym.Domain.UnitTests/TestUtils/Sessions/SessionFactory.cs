@@ -1,5 +1,8 @@
 namespace DomeGym.Domain.UnitTests.TestUtils.Sessions;
 
+using Domain.Common.ValueObjects;
+using SessionAggregate;
+
 public static class SessionFactory
 {
     public static Session CreateSession(

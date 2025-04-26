@@ -4,6 +4,8 @@ using FluentAssertions;
 
 namespace DomeGym.Domain.UnitTests;
 
+using SubscriptionAggregate;
+
 public class SubscriptionTests
 {
     [Fact]

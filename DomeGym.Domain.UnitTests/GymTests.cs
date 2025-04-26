@@ -1,8 +1,9 @@
+namespace DomeGym.Domain.UnitTests;
+
 using DomeGym.Domain.UnitTests.TestUtils.Gyms;
 using DomeGym.Domain.UnitTests.TestUtils.Rooms;
 using FluentAssertions;
-
-namespace DomeGym.Domain.UnitTests.TestUtils;
+using GymAggregate;
 
 public class GymTests
 {

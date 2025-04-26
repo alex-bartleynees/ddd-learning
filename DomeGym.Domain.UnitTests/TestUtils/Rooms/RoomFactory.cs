@@ -1,5 +1,7 @@
 namespace DomeGym.Domain.UnitTests.TestUtils.Rooms;
 
+using RoomAggregate;
+
 public static class RoomFactory
 {
     public static Room CreateRoom(

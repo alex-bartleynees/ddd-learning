@@ -1,5 +1,7 @@
 namespace DomeGym.Domain.UnitTests.TestConstants;
 
+using Common.ValueObjects;
+
 public static partial class Constants
 {
     public static class Session

@@ -1,5 +1,7 @@
 namespace DomeGym.Domain.UnitTests.TestUtils.Subscriptions;
 
+using SubscriptionAggregate;
+
 public static class SubscriptionFactory
 {
     public static Subscription CreateSubscription(

@@ -1,5 +1,7 @@
 namespace DomeGym.Domain.UnitTests.TestUtils.Participants;
 
+using ParticipantAggregate;
+
 public static class ParticipantFactory
 {
     public static Participant CreateParticipant(Guid? id = null, Guid? userId = null)

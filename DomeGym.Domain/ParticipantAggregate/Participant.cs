@@ -1,9 +1,11 @@
+namespace DomeGym.Domain.ParticipantAggregate;
+
+using Common.Entities;
 using DomeGym.Domain.Common;
 using ErrorOr;
+using SessionAggregate;
 
-namespace DomeGym.Domain;
-
-public class Participant : Entity
+public class Participant : AggregateRoot
 {
     private readonly Schedule _schedule = Schedule.Empty();
 

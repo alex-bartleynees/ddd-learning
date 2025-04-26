@@ -1,6 +1,6 @@
-using ErrorOr;
+namespace DomeGym.Domain.SessionAggregate;
 
-namespace DomeGym.Domain;
+using ErrorOr;
 
 public static class SessionErrors
 {

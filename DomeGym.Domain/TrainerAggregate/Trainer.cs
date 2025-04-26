@@ -1,8 +1,11 @@
+namespace DomeGym.Domain.TrainerAggregate;
+
+using Common.Entities;
+using DomeGym.Domain.Common;
 using ErrorOr;
+using SessionAggregate;
 
-namespace DomeGym.Domain;
-
-public class Trainer
+public class Trainer : AggregateRoot
 {
     private readonly Guid _id;
     private readonly Guid _userId;
@@ -12,11 +15,10 @@ public class Trainer
     public Trainer(
         Guid userId,
         Schedule? schedule = null,
-        Guid? id = null)
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         _userId = userId;
         _schedule = schedule ?? Schedule.Empty();
-        _id = id ?? Guid.NewGuid();
     }
 
     public ErrorOr<Success> AddSessionToSchedule(Session session)

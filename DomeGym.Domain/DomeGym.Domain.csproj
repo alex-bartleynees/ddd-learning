@@ -12,4 +12,16 @@
     <PackageReference Include="Throw" Version="1.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AdminAggregate\" />
+    <Folder Include="Common\Entities\" />
+    <Folder Include="Common\ValueObjects\" />
+    <Folder Include="GymAggregate\" />
+    <Folder Include="ParticipantAggregate\" />
+    <Folder Include="RoomAggregate\" />
+    <Folder Include="SessionAggregate\" />
+    <Folder Include="SubscriptionAggregate\" />
+    <Folder Include="TrainerAggregate\" />
+  </ItemGroup>
+
 </Project>

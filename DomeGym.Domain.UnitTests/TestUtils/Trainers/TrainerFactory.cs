@@ -1,5 +1,7 @@
 namespace DomeGym.Domain.UnitTests.TestUtils.Trainers;
 
+using TrainerAggregate;
+
 public static class TrainerFactory
 {
     public static Trainer CreateTrainer(

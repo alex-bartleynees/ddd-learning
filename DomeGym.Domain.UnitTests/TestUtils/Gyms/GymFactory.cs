@@ -1,5 +1,7 @@
 namespace DomeGym.Domain.UnitTests.TestUtils.Gyms;
 
+using GymAggregate;
+
 public static class GymFactory
 {
     public static Gym CreateGym(

@@ -2,6 +2,8 @@ using Throw;
 
 namespace DomeGym.Domain.UnitTests.TestUtils.Common;
 
+using Domain.Common.ValueObjects;
+
 public static class TimeRangeFactory
 {
     public static TimeRange CreateFromHours(int startHour, int endHour)
